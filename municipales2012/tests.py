@@ -8,7 +8,6 @@ from management.commands.contactos_importer import *
 from management.commands.candidatos_importer import *
 from django.test.client import Client
 from django.utils.unittest import skip
-# from captcha.models import CaptchaStore
 
 
 class ComunaModelTestCase(TestCase):
